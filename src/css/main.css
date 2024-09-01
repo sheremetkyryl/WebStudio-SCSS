@@ -801,19 +801,19 @@ body {
   align-items: center;
 }
 
-.portfolio-filter {
+.section__filter {
   display: flex;
   justify-content: center;
   gap: 8px;
   margin-bottom: 34px;
 }
 
-.portfolio-section {
+.section__container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.portfolio-filter-button {
+.section__filter__button {
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.03em;
@@ -825,7 +825,7 @@ body {
   padding: 6px 22px;
 }
 
-.portfolio-filter-button:hover {
+.section__filter__button:hover {
   color: #ffffff;
   background-color: #2196F3;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
