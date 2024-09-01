@@ -4,12 +4,12 @@
     background: #fff;
     border-radius: 4px;
 }
-.teammate-photo {
+.teammate__photo {
     width: 270px;
     height: 260px;
     margin-bottom: 30px;
 }
-.teammate-name {
+.teammate__name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -17,7 +17,7 @@
     text-align: center;
     margin-bottom: 10px;
 }
-.teammate-role {
+.teammate__role {
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
@@ -25,12 +25,12 @@
     color: var(--secondTextColor);
     margin-bottom: 16px;
 }
-.teammate-list {
+.teammate__list {
     display: flex;
     justify-content: center;
     
 }
-.teammate-link {
+.teammate__link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -43,8 +43,8 @@
     margin-bottom: 30px;
     fill: $icon-color;
 }
-.teammate-link:hover , 
-.teammate-link:focus {
+.teammate__link:hover , 
+.teammate__link:focus {
     background-color: $fourth-bg-color;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: scale(1.2) ;

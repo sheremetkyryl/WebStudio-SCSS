@@ -20,24 +20,24 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header-container">
-      <a class="header-logov animate__animated animate__fadeInLeft" href="./index.html"><img src="./src/images/logo/webstudio.webp" alt="логотип"/></a>
-      <nav class="header-nav">
-        <ul class="nav-list">
-          <li class="nav-item animate__animated animate__fadeInDown"><a class="nav-link active" href="#">Студія</a></li>
-          <li class="nav-item animate__animated animate__fadeInDown"><a class="nav-link" href="portfolio.html">Портфоліо</a></li>
-          <li class="nav-item animate__animated animate__fadeInDown"><a class="nav-link" href="#">Контакти</a></li>
+      <div class="container header__container">
+      <a class="header__logo animate__animated animate__fadeInLeft" href="./index.html"><img src="./src/images/logo/webstudio.webp" alt="логотип"/></a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item animate__animated animate__fadeInDown"><a class="nav__link active" href="#">Студія</a></li>
+          <li class="nav__item animate__animated animate__fadeInDown"><a class="nav__link" href="portfolio.html">Портфоліо</a></li>
+          <li class="nav__item animate__animated animate__fadeInDown"><a class="nav__link" href="#">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="header-contacts">
-        <li class="header-contacts-item animate__animated animate__fadeInDown">
-          <a class="header-contacts-link" href="mailto:info@devstudio.com"> <svg class="header-contacts-icon" width="16px" height="12px" >
+      <ul class="contacts__list">
+        <li class="contacts__item animate__animated animate__fadeInDown">
+          <a class="contacts__link" href="mailto:info@devstudio.com"> <svg class="contacts__icon" width="16px" height="12px" >
             <use href="./src/images/symbol-defs.svg#icon-envelope"></use>
           </svg> info@devstudio.com</a>
         
         </li>
-        <li class="header-contacts-item animate__animated animate__fadeInRight">
-          <a class="header-contacts-link" href="tel:+380961111111"><svg class="header-contacts-icon" width="16px" height="12px" >
+        <li class="contacts__item animate__animated animate__fadeInRight">
+          <a class="contacts__link" href="tel:+380961111111"><svg class="contacts__icon" width="16px" height="12px" >
             <use href="./src/images/symbol-defs.svg#icon-phone"></use>
           </svg> +38 096 111 11 11</a>
         </li>
@@ -111,37 +111,37 @@
     </div>
     <main class="main">
       <section class="hero">
-        <div class="container container-hero animate__animated animate__zoomIn">
-        <h1 class="hero-title">Ефективні рішення для <br />вашого бізнесу</h1>
-        <button data-modal-open class="hero-button">Замовити послугу</button>
+        <div class="container container__hero animate__animated animate__zoomIn">
+        <h1 class="hero__title">Ефективні рішення для <br />вашого бізнесу</h1>
+        <button data-modal-open class="hero__button">Замовити послугу</button>
       </div>
       </section>
       <section class="features">
         <div class="container">
-        <ul class="features-list">
-          <li class="feature-item animate__animated animate__zoomIn">
-            <h2 class="feature-title">УВАГА ДО ДЕТАЛЕЙ</h2>
-            <p class="feature-text">
+        <ul class="features__list">
+          <li class="feature__item animate__animated animate__zoomIn">
+            <h2 class="feature__title">УВАГА ДО ДЕТАЛЕЙ</h2>
+            <p class="feature__text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li class="feature-item animate__animated animate__zoomIn">
-            <h2 class="feature-title">ПУНКТУАЛЬНІСТЬ</h2>
-            <p class="feature-text">
+          <li class="feature__item animate__animated animate__zoomIn">
+            <h2 class="feature__title">ПУНКТУАЛЬНІСТЬ</h2>
+            <p class="feature__text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li class="feature-item animate__animated animate__zoomIn">
-            <h2 class="feature-title">ПЛАНУВАННЯ</h2>
-            <p class="feature-text">
+          <li class="feature__item animate__animated animate__zoomIn">
+            <h2 class="feature__title">ПЛАНУВАННЯ</h2>
+            <p class="feature__text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li class="feature-item animate__animated animate__zoomIn">
-            <h2 class="feature-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
-            <p class="feature-text">
+          <li class="feature__item animate__animated animate__zoomIn">
+            <h2 class="feature__title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+            <p class="feature__text">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -151,36 +151,36 @@
       </section>
       <section class="activities">
         <div class="container">
-        <h2 data-aos="zoom-in" class="activity-title">Чим ми займаємося</h2>
-        <ul class="activities-list">
-          <li class="activity-item">
-            <article data-aos="fade-right" class="activity-card">
+        <h2 data-aos="zoom-in" class="activity__title">Чим ми займаємося</h2>
+        <ul class="activities__list">
+          <li class="activity__item">
+            <article data-aos="fade-right" class="activity__card">
             <img
-              class="activity-photo"
+              class="activity__photo"
               src="./src/images/box/coding.webp"
               alt="фото де пишуть код"
             />
-            <h2 class="activity-image-title">ДЕСКТОПНІ ДОДАТКИ</h2>
+            <h2 class="activity__image__title">ДЕСКТОПНІ ДОДАТКИ</h2>
           </article>
           </li>
-          <li class="activity-item">
-            <article data-aos="zoom-in" class="activity-card">
+          <li class="activity__item">
+            <article data-aos="zoom-in" class="activity__card">
             <img
-              class="activity-photo"
+              class="activity__photo"
               src="./src/images/box/technology.webp"
               alt="фото програми"
             />
-            <h2 class="activity-image-title1">МОБІЛЬНІ ДОДАТКИ</h2>
+            <h2 class="activity__image__title1">МОБІЛЬНІ ДОДАТКИ</h2>
           </article>
           </li>
-          <li class="activity-item">
-            <article data-aos="fade-left" class="activity-card">
+          <li class="activity__item">
+            <article data-aos="fade-left" class="activity__card">
             <img
-              class="activity-photo"
+              class="activity__photo"
               src="./src/images/box/tablet.webp"
               alt="планшет з логотипом"
             />
-            <h2 class="activity-image-title2">ДИЗАЙНЕРСЬКІ РІШЕННЯ</h2>
+            <h2 class="activity__image__title2">ДИЗАЙНЕРСЬКІ РІШЕННЯ</h2>
           </article>
           </li>
         </ul>
@@ -188,35 +188,35 @@
       </section>
       <section class="team">
         <div class="container">
-        <h2 data-aos="zoom-in" class="team-title">Наша команда</h2>
-        <div class="team-members">
+        <h2 data-aos="zoom-in" class="team__title">Наша команда</h2>
+        <div class="team__members">
           <article data-aos="zoom-in-up" class="teammate">
             <img
-              class="teammate-photo"
+              class="teammate__photo"
               src="./src/images/teams/igor-demyanenko.webp"
               alt="фото Ігор Дем'яненко"
             />
-            <h2 class="teammate-name">Ігор Дем'яненко</h2>
-            <p class="teammate-role">Product Designer</p>
-            <div class="teammate-icons">
-              <ul class="teammate-list">
-                  <li class="teammate-item">
-               <a class="teammate-link" href="#"><svg width="20px" height="20px" class="teammate-icon">
+            <h2 class="teammate__name">Ігор Дем'яненко</h2>
+            <p class="teammate__role">Product Designer</p>
+            <div class="teammate__icons">
+              <ul class="teammate__list">
+                  <li class="teammate__item">
+               <a class="teammate__link" href="#"><svg width="20px" height="20px" class="teammate__icon">
                   <use href="./src/images/symbol-defs.svg#icon-instagram"></use></svg>
               </a> 
               </li>
-              <li class="teammate-item">
-                <a class="teammate-link" href="#"><svg width="20px" height="20px" class="teammate-icon">
+              <li class="teammate__item">
+                <a class="teammate__link" href="#"><svg width="20px" height="20px" class="teammate__icon">
                    <use href="./src/images/symbol-defs.svg#icon-twitter"></use></svg>
                </a> 
                </li>
-               <li class="teammate-item">
-                <a class="teammate-link" href="#"><svg width="20px" height="20px" class="teammate-icon">
+               <li class="teammate__item">
+                <a class="teammate__link" href="#"><svg width="20px" height="20px" class="teammate__icon">
                    <use href="./src/images/symbol-defs.svg#icon-facebook"></use></svg>
                </a> 
                </li>
-               <li class="teammate-item">
-                <a class="teammate-link" href="#"><svg width="20px" height="20px" class="teammate-icon">
+               <li class="teammate__item">
+                <a class="teammate__link" href="#"><svg width="20px" height="20px" class="teammate__icon">
                    <use href="./src/images/symbol-defs.svg#icon-in"></use></svg>
                </a> 
                </li>
@@ -224,31 +224,31 @@
           </article>
           <article data-aos="zoom-in-up" class="teammate">
             <img
-              class="teammate-photo"
+              class="teammate__photo"
               src="./src/images/teams/olga-repina.webp"
               alt="фото Ольга Рєпіна"
             />
-            <h2 class="teammate-name">Ольга Рєпіна</h2>
-            <p class="teammate-role">Frontend Developer</p>
-            <div class="teammate-icons">
-              <ul class="teammate-list">
-                  <li class="teammate-item">
-               <a class="teammate-link" href="#"><svg width="20px" height="20px" class="teammate-icon">
+            <h2 class="teammate__name">Ольга Рєпіна</h2>
+            <p class="teammate__role">Frontend Developer</p>
+            <div class="teammate__icons">
+              <ul class="teammate__list">
+                  <li class="teammate__item">
+               <a class="teammate__link" href="#"><svg width="20px" height="20px" class="teammate__icon">
                   <use href="./src/images/symbol-defs.svg#icon-instagram"></use></svg>
               </a> 
               </li>
-              <li class="teammate-item">
-                <a class="teammate-link" href="#"><svg width="20px" height="20px" class="teammate-icon">
+              <li class="teammate__item">
+                <a class="teammate__link" href="#"><svg width="20px" height="20px" class="teammate__icon">
                    <use href="./src/images/symbol-defs.svg#icon-twitter"></use></svg>
                </a> 
                </li>
-               <li class="teammate-item">
-                <a class="teammate-link" href="#"><svg width="20px" height="20px" class="teammate-icon">
+               <li class="teammate__item">
+                <a class="teammate__link" href="#"><svg width="20px" height="20px" class="teammate__icon">
                    <use href="./src/images/symbol-defs.svg#icon-facebook"></use></svg>
                </a> 
                </li>
-               <li class="teammate-item">
-                <a class="teammate-link" href="#"><svg width="20px" height="20px" class="teammate-icon">
+               <li class="teammate__item">
+                <a class="teammate__link" href="#"><svg width="20px" height="20px" class="teammate__icon">
                    <use href="./src/images/symbol-defs.svg#icon-in"></use></svg>
                </a> 
                </li>
@@ -256,31 +256,31 @@
           </article>
           <article data-aos="zoom-in-up" class="teammate">
             <img
-              class="teammate-photo"
+              class="teammate__photo"
               src="./src/images/teams/mykola-tarasov.webp"
               alt="фото Микола Тарасов"
             />
-            <h2 class="teammate-name">Микола Тарасов</h2>
-            <p class="teammate-role">Marketing</p>
-            <div class="teammate-icons">
-              <ul class="teammate-list">
-                  <li class="teammate-item">
-               <a class="teammate-link" href="#"><svg width="20px" height="20px" class="teammate-icon">
+            <h2 class="teammate__name">Микола Тарасов</h2>
+            <p class="teammate__role">Marketing</p>
+            <div class="teammate__icons">
+              <ul class="teammate__list">
+                  <li class="teammate__item">
+               <a class="teammate__link" href="#"><svg width="20px" height="20px" class="teammate__icon">
                   <use href="./src/images/symbol-defs.svg#icon-instagram"></use></svg>
               </a> 
               </li>
-              <li class="teammate-item">
-                <a class="teammate-link" href="#"><svg width="20px" height="20px" class="teammate-icon">
+              <li class="teammate__item">
+                <a class="teammate__link" href="#"><svg width="20px" height="20px" class="teammate__icon">
                    <use href="./src/images/symbol-defs.svg#icon-twitter"></use></svg>
                </a> 
                </li>
-               <li class="teammate-item">
-                <a class="teammate-link" href="#"><svg width="20px" height="20px" class="teammate-icon">
+               <li class="teammate__item">
+                <a class="teammate__link" href="#"><svg width="20px" height="20px" class="teammate__icon">
                    <use href="./src/images/symbol-defs.svg#icon-facebook"></use></svg>
                </a> 
                </li>
-               <li class="teammate-item">
-                <a class="teammate-link" href="#"><svg width="20px" height="20px" class="teammate-icon">
+               <li class="teammate__item">
+                <a class="teammate__link" href="#"><svg width="20px" height="20px" class="teammate__icon">
                    <use href="./src/images/symbol-defs.svg#icon-in"></use></svg>
                </a> 
                </li>
@@ -288,31 +288,31 @@
           </article>
           <article data-aos="zoom-in-up" class="teammate">
             <img
-              class="teammate-photo"
+              class="teammate__photo"
               src="./src/images/teams/mykhailo-yermakov.webp"
               alt="фото Михайло Єрмаков"
             />
-            <h2 class="teammate-name">Михайло Єрмаков</h2>
-            <p class="teammate-role">UI Designer</p>
-            <div class="teammate-icons">
-            <ul class="teammate-list">
-                <li class="teammate-item">
-             <a class="teammate-link" href="#"><svg width="20px" height="20px" class="teammate-icon">
+            <h2 class="teammate__name">Михайло Єрмаков</h2>
+            <p class="teammate__role">UI Designer</p>
+            <div class="teammate__icons">
+            <ul class="teammate__list">
+                <li class="teammate__item">
+             <a class="teammate__link" href="#"><svg width="20px" height="20px" class="teammate__icon">
                 <use href="./src/images/symbol-defs.svg#icon-instagram"></use></svg>
             </a> 
             </li>
-            <li class="teammate-item">
-              <a class="teammate-link" href="#"><svg width="20px" height="20px" class="teammate-icon">
+            <li class="teammate__item">
+              <a class="teammate__link" href="#"><svg width="20px" height="20px" class="teammate__icon">
                  <use href="./src/images/symbol-defs.svg#icon-twitter"></use></svg>
              </a> 
              </li>
-             <li class="teammate-item">
-              <a class="teammate-link" href="#"><svg width="20px" height="20px" class="teammate-icon">
+             <li class="teammate__item">
+              <a class="teammate__link" href="#"><svg width="20px" height="20px" class="teammate__icon">
                  <use href="./src/images/symbol-defs.svg#icon-facebook"></use></svg>
              </a> 
             </li>
-             <li class="teammate-item">
-              <a class="teammate-link" href="#"><svg width="20px" height="20px" class="teammate-icon">
+             <li class="teammate__item">
+              <a class="teammate__link" href="#"><svg width="20px" height="20px" class="teammate__icon">
                  <use href="./src/images/symbol-defs.svg#icon-in"></use></svg>
              </a> 
              </li>
@@ -323,42 +323,42 @@
         </div>
       </div>
       </section>
-      <section class="regular-customers">
-        <h2 data-aos="zoom-in-down" class="regular-customers-title">Постійні клієнти</h2>
-              <div class="regular-customers-container">
-              <ul class="regular-customers-list">
-                <li data-aos="zoom-out" class="regular-customers-item">
-                <a class="regular-customers-link" href="#"><svg width="40px" height="52px" class="regular-customers-icon">
+      <section class="regular__customers">
+        <h2 data-aos="zoom-in-down" class="regular__customers__title">Постійні клієнти</h2>
+              <div class="regular__customers__container">
+              <ul class="regular__customers__list">
+                <li data-aos="zoom-out" class="regular__customers__item">
+                <a class="regular__customers__link" href="#"><svg width="40px" height="52px" class="regular__customers__icon">
                   <use href="./src/images/symboldefs.svg#icon-ya-co"></use>
                 </svg>
               </a>
             </li>
-              <li data-aos="zoom-out" class="regular-customers-item">
-                <a class="regular-customers-link" href="#"><svg width="40" height="52px" class="regular-customers-icon">
+              <li data-aos="zoom-out" class="regular__customers__item">
+                <a class="regular__customers__link" href="#"><svg width="40" height="52px" class="regular__customers__icon">
                   <use href="./src/images/symboldefs.svg#icon-company3"></use>
                 </svg>
               </a>
               </li>
-                <li data-aos="zoom-out" class="regular-customers-item">
-                <a class="regular-customers-link" href="#"><svg width="43" height="41px" class="regular-customers-icon">
+                <li data-aos="zoom-out" class="regular__customers__item">
+                <a class="regular__customers__link" href="#"><svg width="43" height="41px" class="regular__customers__icon">
                   <use href="./src/images/symboldefs.svg#icon-company2"></use>
                 </svg>
               </a>
               </li>
-                <li data-aos="zoom-out" class="regular-customers-item">
-                <a class="regular-customers-link" href="#"><svg width="84" height="40px" class="regular-customers-icon">
+                <li data-aos="zoom-out" class="regular__customers__item">
+                <a class="regular__customers__link" href="#"><svg width="84" height="40px" class="regular__customers__icon">
                   <use href="./src/images/symboldefs.svg#icon-foster-peters"></use>
                 </svg>
               </a>
               </li>
-                <li data-aos="zoom-out" class="regular-customers-item">
-              <a class="regular-customers-link" href="#"><svg width="62" height="45px" class="regular-customers-icon">
+                <li data-aos="zoom-out" class="regular__customers__item">
+              <a class="regular__customers__link" href="#"><svg width="62" height="45px" class="regular__customers__icon">
                   <use href="./src/images/symboldefs.svg#icon-brand"></use>
                 </svg>
               </a>
               </li>
-                <li data-aos="zoom-out" class="regular-customers-item">
-                <a class="regular-customers-link" href="#"><svg width="93" height="43px"  class="regular-customers-icon">
+                <li data-aos="zoom-out" class="regular__customers__item">
+                <a class="regular__customers__link" href="#"><svg width="93" height="43px"  class="regular__customers__icon">
                   <use href="./src/images/symboldefs.svg#icon-company"></use>
                 </svg>
               </a>
@@ -368,55 +368,55 @@
       </section>
     </main>
     <footer class="footer">
-      <div data-aos="fade-up" class="container footer-container">
-        <div class="container-contacts">
-          <a class="footer-logo" href="./index.html"><img src="./src/images/logo/second-logo.webp" alt="логотип"/></a>
-          <ul class="footer-contacts">
-           <li class="footer-contacts-item">
-            <address class="footer-address">м. Київ, пр-т Лесі Українки, 26</address>
+      <div data-aos="fade-up" class="container footer__container">
+        <div class="container__contacts">
+          <a class="footer__logo" href="./index.html"><img src="./src/images/logo/second-logo.webp" alt="логотип"/></a>
+          <ul class="footer__contacts">
+           <li class="footer__contacts__item">
+            <address class="footer__address">м. Київ, пр-т Лесі Українки, 26</address>
            </li>
-           <li class="footer-contacts-item">
-             <a class="footer-contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+           <li class="footer__contacts__item">
+             <a class="footer__contacts__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
            </li>
-           <li class="footer-contacts-item">
-             <a class="footer-contacts-link" href="tel:+38096111111">+38 096 111 11 11</a>
+           <li class="footer__contacts__item">
+             <a class="footer__contacts__link" href="tel:+38096111111">+38 096 111 11 11</a>
            </li>
         </ul>
         </div>
-        <div class="footer-icons">
-          <b class="footer-title">ПРИЄДНУЙТЕСЬ</b>
-            <ul class="footer-list">
-              <li class="footer-item">
-                <a class="footer-link" href="#"><svg class="footer-icon">
+        <div class="footer__icons">
+          <b class="footer__title">ПРИЄДНУЙТЕСЬ</b>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#"><svg class="footer__icon">
                 <use href="./src/images/symbol-defs.svg#icon-instagram"></use></svg>
                 </a>
               </li>
-              <li class="footer-item">
-                <a class="footer-link" href="#"><svg class="footer-icon">
+              <li class="footer__item">
+                <a class="footer__link" href="#"><svg class="footer__icon">
                 <use href="./src/images/symbol-defs.svg#icon-twitter"></use></svg>
                 </a>
               </li>
-              <li class="footer-item">
-                <a class="footer-link" href="#"><svg class="footer-icon">
+              <li class="footer__item">
+                <a class="footer__link" href="#"><svg class="footer__icon">
                 <use href="./src/images/symbol-defs.svg#icon-facebook"></use></svg>
                 </a>
               </li>
-              <li class="footer-item">
-                <a class="footer-link" href="#"><svg class="footer-icon">
+              <li class="footer__item">
+                <a class="footer__link" href="#"><svg class="footer__icon">
                 <use href="./src/images/symbol-defs.svg#icon-in"></use></svg>
                 </a>
               </li>
            </ul>
         </div>
 
-        <div class="footer-form-container">
-          <h2 class="footer-form-title">Підпишіться на розсилку</h2>
-          <div class="form-container">
-          <form class="footer-form" action="#" id="email">
+        <div class="footer__form__container">
+          <h2 class="footer__form__title">Підпишіться на розсилку</h2>
+          <div class="form__container">
+          <form class="footer__form" action="#" id="email">
             <label for="email" hidden></label>
-            <input class="footer-form-input" type="email" id="email" placeholder="E-mail">
-            <button class="footer-form-button">Підписатися
-              <svg class="footer-form-icon" width="24px" height="24px">
+            <input class="footer__form__input" type="email" id="email" placeholder="E-mail">
+            <button class="footer__form__button">Підписатися
+              <svg class="footer__form__icon" width="24px" height="24px">
                 <use href="./src/images/icon-send.svg#icon-icon-send"></use>
               </svg>
             </button>
@@ -434,4 +434,4 @@
       AOS.init();
     </script>
   </body>
-</html>
+</html>__

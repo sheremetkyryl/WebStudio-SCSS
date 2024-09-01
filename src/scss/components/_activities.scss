@@ -2,7 +2,7 @@
     padding-bottom: 94px;
     position: relative;
 }
-.activity-title {
+.activity__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -10,19 +10,19 @@
     text-align: center;
     margin-bottom: 50px;
 }
-.activities-list {
+.activities__list {
     display: flex;
     justify-content: center;
     flex-direction: row;
     column-gap: 30px;
 }
-.activity-card {
+.activity__card {
     position: relative;
 }
-.activity-photo {
+.activity__photo {
     display: block;
 }
-.activity-image-title {
+.activity__image__title {
     color: $third-text-color;
     font-weight: 700;
     font-size: 14px;
@@ -35,7 +35,7 @@
     bottom: 0;
     left: 0;
 }
-.activity-image-title1 {
+.activity__image__title1 {
     color: $third-text-color;
     font-weight: 700;
     font-size: 14px;
@@ -48,7 +48,7 @@
     bottom: 0;
     left: 0;
 }
-.activity-image-title2 {
+.activity__image__title2 {
     color: $third-text-color;
     font-weight: 700;
     font-size: 14px;

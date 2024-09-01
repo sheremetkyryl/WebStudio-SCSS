@@ -1,21 +1,21 @@
-.regular-customers-title {
+.regular__customers__title {
     display: flex; 
     justify-content: center;
     margin-bottom: 50px;
     margin-top: 94px;
 }
-.regular-customers-container {
+.regular__customers__container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap:  30px;
     margin-bottom: 94px;
 }
-.regular-customers-list {
+.regular__customers__list {
     display: flex;
     gap: 30px;
 }
-.regular-customers-link {
+.regular__customers__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +25,7 @@
     border-radius: 4px;
     fill: $icon-color;
 }
-.regular-customers-link:hover , .regular-customers-link:focus {
+.regular__customers__link:hover , .regular__customers__link:focus {
     transition: 0.5s;
     fill: $fourth-bg-color;
     border-color: $fourth-bg-color;

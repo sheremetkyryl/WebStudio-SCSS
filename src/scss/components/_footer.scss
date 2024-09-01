@@ -4,16 +4,16 @@
     background-color: $second-bg-color;
 }
 
-.footer-contacts-item {
+.footer__contacts__item {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: $third-text-color;
     margin-bottom: 9px;
 }
-.footer-contacts-link {
+.footer__contacts__link {
     color: $second-text-color;
 }
-.footer-container {
+.footer__container {
     display: flex;
     align-items: baseline;
 }
