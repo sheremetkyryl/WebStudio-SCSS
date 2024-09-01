@@ -1,0 +1,19 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: $second-bg-color;
+}
+
+.footer-contacts-item {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $third-text-color;
+    margin-bottom: 9px;
+}
+.footer-contacts-link {
+    color: $second-text-color;
+}
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}

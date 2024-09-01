@@ -1,0 +1,23 @@
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    column-gap: 9px;
+    margin-top: 20px;
+    width: 231px;
+}
+.footer-contacts-item {
+    height: 21px;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $third-text-color;
+}
+.footer-address {
+    line-height: 171%;
+    letter-spacing: 0.03em;
+}
+.footer-contacts-link {
+    line-height: 171%;
+    letter-spacing: 0.03em;  
+}
+

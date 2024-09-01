@@ -1,0 +1,20 @@
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: $third-text-color;
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.team-members {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    /* box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12); */
+}

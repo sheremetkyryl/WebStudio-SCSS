@@ -1,0 +1,21 @@
+.features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.features-list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.feature-title {
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.feature-text {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $second-text-color;
+}
