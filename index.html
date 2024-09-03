@@ -20,16 +20,18 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header__container">
-      <a class="header__logo animate__animated animate__fadeInLeft" href="./index.html"><img src="./src/images/logo/webstudio.webp" alt="логотип"/></a>
+    <div class="container header__container">
+    <a class="header__logo animate__animated animate__fadeInLeft" href="./index.html">
+        <img src="./src/images/logo/webstudio.webp" alt="логотип"/>
+    </a>
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__item animate__animated animate__fadeInDown"><a class="nav__link active" href="#">Студія</a></li>
-          <li class="nav__item animate__animated animate__fadeInDown"><a class="nav__link" href="portfolio.html">Портфоліо</a></li>
-          <li class="nav__item animate__animated animate__fadeInDown"><a class="nav__link" href="#">Контакти</a></li>
+            <li class="nav__item animate__animated animate__fadeInDown"><a class="nav__link nav__link--active" href="#">Студія</a></li>
+            <li class="nav__item animate__animated animate__fadeInDown"><a class="nav__link" href="portfolio.html">Портфоліо</a></li>
+            <li class="nav__item animate__animated animate__fadeInDown"><a class="nav__link" href="#">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="contacts__list">
+      <ul class="contacts">
         <li class="contacts__item animate__animated animate__fadeInDown">
           <a class="contacts__link" href="mailto:info@devstudio.com"> <svg class="contacts__icon" width="16px" height="12px" >
             <use href="./src/images/symbol-defs.svg#icon-envelope"></use>
@@ -49,30 +51,30 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="button-close" data-modal-close>
-          <svg class="button-close-icon">
+        <button class="button__close" data-modal-close>
+          <svg class="button__close__icon">
             <use href="./src/images/modalicons.svg#icon-close-icon"></use>
           </svg>
         </button>
 
-        <form action="#" class="modal-form">
-          <h2 class="modal-form-title">Залиште свої дані, ми вам передзвонимо</h2>
+        <form action="#" class="modal__form">
+          <h2 class="modal__form__title">Залиште свої дані, ми вам передзвонимо</h2>
 
           <div class="modal-form-field">
-            <h3 class="form-title">Ім'я</h3>
+            <h3 class="modal__form__name">Ім'я</h3>
           <label hidden for="name"></label>
           
-          <div class="input-container">
-            <input type="text" id="name" class="modal-input">
-            <svg width="18px" height="18px" class="modal-icon">
+          <div class="input__container">
+            <input type="text" id="name" class="modal__input">
+            <svg width="18px" height="18px" class="modal__icon">
               <use href="./src/images/modalicons.svg#icon-people-icon"></use>
             </svg>
           </div>
 
         </div>
 
-        <div class="modal-form-field">
-          <h3 class="form-title">Телефон</h3>
+        <div class="modal__form__field">
+          <h3 class="modal__form__name">Телефон</h3>
             <label hidden for="tel"></label>
             <input type="tel" id="tel" class="modal-input">
             <svg width="18px" height="18px" class="modal-icon">
@@ -82,33 +84,35 @@
         </div>
 
         <div class="modal-form-field">
-          <h3 class="form-title">Пошта</h3>
+          <h3 class="modal__form__name">Пошта</h3>
             <label hidden for="email"></label>
-            <input type="email" id="email" class="modal-input">
-            <svg width="18px" height="18px" class="modal-icon">
+            <input type="email" id="email" class="modal__input">
+            <svg width="18px" height="18px" class="modal__icon">
               <use href="./src/images/modalicons.svg#icon-email-icon"></use>
             </svg>
           
         </div>
 
-        <div class="modal-form-field">
-          <h3 class="form-title">Коментар</h3>
+        <div class="modal__form__field">
+          <h3 class="modal__form__name">Коментар</h3>
             <label hidden for="comment"></label>
-            <textarea name="comment" id="comment" placeholder="Введіть текст" class="modal-form-textarea"></textarea>
+            <textarea name="comment" id="comment" placeholder="Введіть текст" class="modal__form__textarea"></textarea>
           
         </div>
 
-        <div class="modal-form-checkbox">
+        <div class="modal__form__checkbox">
           <label hidden for="checkbox"></label>
-            <input type="checkbox" class="modal-checkbox">
-            <span class="checkbox-text">Погоджуюся з розсилкою та приймаю <a class="modal-link" href="#">Умови договору</a></span>
+            <input type="checkbox" class="modal__checkbox">
+            <span class="checkbox__text">Погоджуюся з розсилкою та приймаю <a class="modal__link" href="#">Умови договору</a></span>
           
         </div>
 
-        <button class="submit-button" type="submit">Відправити</button>
+        <button class="submit__button" type="submit">Відправити</button>
         </form>
       </div>
     </div>
+
+    <!-- ========================HERO======================== -->
     <main class="main">
       <section class="hero">
         <div class="container container__hero animate__animated animate__zoomIn">
@@ -116,6 +120,8 @@
         <button data-modal-open class="hero__button">Замовити послугу</button>
       </div>
       </section>
+
+      <!-- ========================FEATURES======================== -->
       <section class="features">
         <div class="container">
         <ul class="features__list">
@@ -149,6 +155,8 @@
         </ul>
       </div>
       </section>
+
+      <!-- ========================ACTIVITIES======================== -->
       <section class="activities">
         <div class="container">
         <h2 data-aos="zoom-in" class="activity__title">Чим ми займаємося</h2>
@@ -186,10 +194,14 @@
         </ul>
       </div>
       </section>
+
+      <!-- ========================TEAM======================== -->
       <section class="team">
         <div class="container">
         <h2 data-aos="zoom-in" class="team__title">Наша команда</h2>
         <div class="team__members">
+
+            <!-- ========================TEAMMATE======================== -->
           <article data-aos="zoom-in-up" class="teammate">
             <img
               class="teammate__photo"
@@ -323,42 +335,44 @@
         </div>
       </div>
       </section>
-      <section class="regular__customers">
-        <h2 data-aos="zoom-in-down" class="regular__customers__title">Постійні клієнти</h2>
-              <div class="regular__customers__container">
-              <ul class="regular__customers__list">
-                <li data-aos="zoom-out" class="regular__customers__item">
-                <a class="regular__customers__link" href="#"><svg width="40px" height="52px" class="regular__customers__icon">
+
+      <!-- ========================USERS======================== -->
+      <section class="users">
+        <h2 data-aos="zoom-in-down" class="users__title">Постійні клієнти</h2>
+              <div class="users__container">
+              <ul class="users__list">
+                <li data-aos="zoom-out" class="users__item">
+                <a class="users__link" href="#"><svg width="40px" height="52px" class="users__icon">
                   <use href="./src/images/symboldefs.svg#icon-ya-co"></use>
                 </svg>
               </a>
             </li>
-              <li data-aos="zoom-out" class="regular__customers__item">
-                <a class="regular__customers__link" href="#"><svg width="40" height="52px" class="regular__customers__icon">
+              <li data-aos="zoom-out" class="users__item">
+                <a class="users__link" href="#"><svg width="40" height="52px" class="users__icon">
                   <use href="./src/images/symboldefs.svg#icon-company3"></use>
                 </svg>
               </a>
               </li>
-                <li data-aos="zoom-out" class="regular__customers__item">
-                <a class="regular__customers__link" href="#"><svg width="43" height="41px" class="regular__customers__icon">
+                <li data-aos="zoom-out" class="users__item">
+                <a class="users__link" href="#"><svg width="43" height="41px" class="users__icon">
                   <use href="./src/images/symboldefs.svg#icon-company2"></use>
                 </svg>
               </a>
               </li>
-                <li data-aos="zoom-out" class="regular__customers__item">
-                <a class="regular__customers__link" href="#"><svg width="84" height="40px" class="regular__customers__icon">
+                <li data-aos="zoom-out" class="users__item">
+                <a class="users__link" href="#"><svg width="84" height="40px" class="users__icon">
                   <use href="./src/images/symboldefs.svg#icon-foster-peters"></use>
                 </svg>
               </a>
               </li>
-                <li data-aos="zoom-out" class="regular__customers__item">
-              <a class="regular__customers__link" href="#"><svg width="62" height="45px" class="regular__customers__icon">
+                <li data-aos="zoom-out" class="users__item">
+              <a class="users__link" href="#"><svg width="62" height="45px" class="users__icon">
                   <use href="./src/images/symboldefs.svg#icon-brand"></use>
                 </svg>
               </a>
               </li>
-                <li data-aos="zoom-out" class="regular__customers__item">
-                <a class="regular__customers__link" href="#"><svg width="93" height="43px"  class="regular__customers__icon">
+                <li data-aos="zoom-out" class="users__item">
+                <a class="users__link" href="#"><svg width="93" height="43px"  class="users__icon">
                   <use href="./src/images/symboldefs.svg#icon-company"></use>
                 </svg>
               </a>
