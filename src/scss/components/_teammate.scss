@@ -22,9 +22,10 @@
         line-height: 1.2;
         letter-spacing: 0.03em;
         text-align: center;
-        color: var(--secondTextColor);
+        color: $second-text-color;
         margin-bottom: 16px;
     }
+    
     &__list {
         display: flex;
         justify-content: center;
@@ -43,14 +44,17 @@
         margin-bottom: 30px;
         fill: $icon-color;
     }
-    &:hover , 
-    &:focus {
+
+    &__link:hover , 
+    &__link:focus {
         background-color: $fourth-bg-color;
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
         transform: scale(1.2) ;
         fill: $third-text-color;
     }
 }
+
+
 
 
 
