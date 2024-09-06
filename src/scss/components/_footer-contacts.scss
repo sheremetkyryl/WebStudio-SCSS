@@ -4,20 +4,22 @@
     column-gap: 9px;
     margin-top: 20px;
     width: 231px;
+
+    &__contacts__item {
+        height: 21px;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: $third-text-color;
+    }
+    &__address {
+        line-height: 171%;
+        letter-spacing: 0.03em;
+    }
+    &__contacts__link {
+        line-height: 171%;
+        letter-spacing: 0.03em;  
+    }
 }
-.footer__contacts__item {
-    height: 21px;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: $third-text-color;
-}
-.footer__address {
-    line-height: 171%;
-    letter-spacing: 0.03em;
-}
-.footer__contacts__link {
-    line-height: 171%;
-    letter-spacing: 0.03em;  
-}
+
 

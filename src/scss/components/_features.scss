@@ -1,21 +1,22 @@
 .features {
     padding-top: 94px;
     padding-bottom: 94px;
-}
-.features__list {
-    display: flex;
-    justify-content: space-between;
-    column-gap: 30px;
-}
-.feature__title {
-    font-weight: 700;
-    letter-spacing: 0.03em;
-    line-height: 1.2;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-.feature__text {
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: $second-text-color;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 30px;
+    }
+    &__title {
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        line-height: 1.2;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    &__text {
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: $second-text-color;
+    } 
 }

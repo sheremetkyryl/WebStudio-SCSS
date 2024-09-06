@@ -1,63 +1,64 @@
 .activities {
     padding-bottom: 94px;
     position: relative;
-}
-.activity__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    text-align: center;
-    margin-bottom: 50px;
-}
-.activities__list {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    column-gap: 30px;
-}
-.activity__card {
-    position: relative;
-}
-.activity__photo {
-    display: block;
-}
-.activity__image__title {
-    color: $third-text-color;
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 27px 107px;
-    background-color: #2f303ac1;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-.activity__image__title1 {
-    color: $third-text-color;
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 27px 112px;
-    background-color: #2f303ac1;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-.activity__image__title2 {
-    color: $third-text-color;
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 27px 94px;
-    background-color: #2f303ac1;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    &__list {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        column-gap: 30px;
+    }
+    &__card {
+        position: relative;
+    }
+    &__photo {
+        display: block;
+    }
+    &__image__title {
+        color: $third-text-color;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 27px 107px;
+        background-color: #2f303ac1;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    &__image__title1 {
+        color: $third-text-color;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 27px 112px;
+        background-color: #2f303ac1;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    &__image__title2 {
+        color: $third-text-color;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 27px 94px;
+        background-color: #2f303ac1;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    } 
 }

@@ -3,50 +3,54 @@
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
     background: #fff;
     border-radius: 4px;
+
+    &__photo {
+        width: 270px;
+        height: 260px;
+        margin-bottom: 30px;
+    }
+    &__name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    &__role {
+        font-size: 16px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: var(--secondTextColor);
+        margin-bottom: 16px;
+    }
+    &__list {
+        display: flex;
+        justify-content: center;
+        
+    }
+    &__link {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $third-text-color;
+        transition: 0.5s;
+        margin-bottom: 30px;
+        fill: $icon-color;
+    }
+    &:hover , 
+    &:focus {
+        background-color: $fourth-bg-color;
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transform: scale(1.2) ;
+        fill: $third-text-color;
+    }
 }
-.teammate__photo {
-    width: 270px;
-    height: 260px;
-    margin-bottom: 30px;
-}
-.teammate__name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    text-align: center;
-    margin-bottom: 10px;
-}
-.teammate__role {
-    font-size: 16px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: var(--secondTextColor);
-    margin-bottom: 16px;
-}
-.teammate__list {
-    display: flex;
-    justify-content: center;
-    
-}
-.teammate__link {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: $third-text-color;
-    transition: 0.5s;
-    margin-bottom: 30px;
-    fill: $icon-color;
-}
-.teammate__link:hover , 
-.teammate__link:focus {
-    background-color: $fourth-bg-color;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transform: scale(1.2) ;
-    fill: $third-text-color;
-}
+
+
+

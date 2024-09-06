@@ -2,18 +2,20 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: $second-bg-color;
+
+    &__contacts__item {
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: $third-text-color;
+        margin-bottom: 9px;
+    }
+    &__contacts__link {
+        color: $second-text-color;
+    }
+    &__container { 
+        display: flex;
+        align-items: baseline;
+    }
 }
 
-.footer__contacts__item {
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: $third-text-color;
-    margin-bottom: 9px;
-}
-.footer__contacts__link {
-    color: $second-text-color;
-}
-.footer__container {
-    display: flex;
-    align-items: baseline;
-}
+
