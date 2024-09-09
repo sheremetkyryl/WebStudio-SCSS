@@ -1,0 +1,10 @@
+@mixin bg-image($bg-image) {
+    content: "";
+    display: block;
+    height: 120px;
+    background-color: $third-bg-color;
+    background-image: $bg-image;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}

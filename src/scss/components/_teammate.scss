@@ -27,8 +27,7 @@
     }
     
     &__list {
-        display: flex;
-        justify-content: center;
+        @extend %flex;
         
     }
     &__link {
@@ -36,8 +35,7 @@
         height: 44px;
         border-radius: 50%;
         cursor: pointer;
-        display: flex;
-        justify-content: center;
+        @extend %flex;
         align-items: center;
         color: $third-text-color;
         transition: 0.5s;

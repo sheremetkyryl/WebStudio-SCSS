@@ -5,19 +5,14 @@
 }
 
 .footer__list {
-    display: flex;
-    justify-content: center;
+    @extend %flex;
     margin-top: 20px;
-    
-    
-    
 }
 
 
 
 .footer__title {
-    font-weight: 700;
-    font-size: 14px;
+    @extend %font;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: $third-text-color;
@@ -29,8 +24,7 @@
     height: 44px;
     border-radius: 50%;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
+    @extend %flex;
     align-items: center;
     color: $third-text-color;
     fill: currentColor;

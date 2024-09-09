@@ -2,15 +2,13 @@
 
 
     &__title {
-        display: flex; 
-        justify-content: center;
+        @extend %flex;
         margin-bottom: 50px;
         margin-top: 94px;
     }
     &__container {
-        display: flex;
+        @extend %flex;
         flex-direction: row;
-        justify-content: center;
         gap:  30px;
         margin-bottom: 94px;
     }
@@ -19,8 +17,7 @@
         gap: 30px;
     }
     &__link {
-        display: flex;
-        justify-content: center;
+        @extend %flex;
         align-items: center;
         width: 170px;
         height: 92px;

@@ -1,0 +1,25 @@
+%flex {
+    display: flex;
+    justify-content: center;
+}
+
+%position {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+%text-align-transform {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+%font {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+%line-height-letter-spacing {
+    line-height: 171%;
+    letter-spacing: 0.03em;  
+}

@@ -13,12 +13,10 @@
         color: $third-text-color;
     }
     &__address {
-        line-height: 171%;
-        letter-spacing: 0.03em;
+        @extend %line-height-letter-spacing;
     }
     &__contacts__link {
-        line-height: 171%;
-        letter-spacing: 0.03em;  
+        @extend %line-height-letter-spacing;  
     }
 }
 

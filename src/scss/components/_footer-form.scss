@@ -8,14 +8,12 @@
 .footer__form__title {
     color: $third-text-color;
     margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 14px;
+    @extend %font;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .footer__container {
-    display: flex;
-    justify-content: center;
+    @extend %flex;
     align-items: center;
     flex-direction: row;
 
@@ -52,8 +50,7 @@
     line-height: 187%;
     letter-spacing: 0.06em;
     text-align: center;
-    display: flex;
-    justify-content: center;
+    @extend %flex;
     align-items: center;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     
