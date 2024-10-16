@@ -1,7 +1,9 @@
 .footer__form__container {
-    margin-left: 93px;
-
-    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* margin-left: 93px; */
 }
 
 
@@ -15,20 +17,18 @@
 .footer__container {
     @extend %flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
 
     margin-top: 20px;
 }
 .footer__form {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
 }
 .footer__form__input {
     background-color: $second-bg-color;
     border: 1px solid #ffffff34;
-    /* padding-top: 15px;
-    padding-right: 295px;
-    padding-bottom: 15px; */
     width: 358px;
     height: 50px;
     padding-left: 16px;
@@ -36,6 +36,7 @@
     position: relative;
     color: $third-text-color;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
 }
 
 .footer__form__button {
@@ -66,3 +67,27 @@
     margin-left: 10px;
     fill: white;
 }
+
+@media (min-width:768px) and (max-width:991px)  {
+    .footer__container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .container__contacts {
+      margin-right: 161px;
+    }
+    }
+    @media (min-width:992px){
+      .footer__container {
+        display: flex;
+        flex-direction: row;
+      }
+      .container__contacts {
+        margin-right: 70px;
+      }
+      .footer__icons {
+        margin-right: 93px;
+      }
+      
+      }

@@ -1,6 +1,7 @@
 .activities {
     padding-bottom: 94px;
     position: relative;
+    display: none;
 
     &__title {
         font-weight: 700;
@@ -48,4 +49,9 @@
         background-color: #2f303ac1;
         @extend %position;
     } 
+}
+@media screen and (min-width: 1200px){
+    .activities {
+        display: block;
+    }
 }

@@ -1,7 +1,7 @@
 .footer__icons{
-    margin-left: 70px;
-
-    
+    /* margin-left: 70px; */
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 .footer__list {
@@ -44,4 +44,10 @@
     fill: white;
     width: 20px;
     height: 20px;
+}
+
+@media (min-width:992px){
+    .footer__icons {
+        margin-right: 93px;
+    }
 }
