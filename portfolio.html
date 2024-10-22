@@ -20,13 +20,20 @@
     <header class="header">
         <div class="container header__container">
         <a class="header__logo animate__animated animate__fadeInLeft" href="./index.html"><img src="./src/images/logo/webstudio.webp" alt="логотип"/></a>
-        <nav class="nav">
+        <nav class="nav" data-menu>
           <ul class="nav__list">
-            <li class="nav__item animate__animated animate__fadeInDown"><a class="nav__link" href="#">Студія</a></li>
+            <li class="nav__item animate__animated animate__fadeInDown"><a class="nav__link" href="./index.html">Студія</a></li>
             <li class="nav__item animate__animated animate__fadeInDown"><a class="nav__link nav__link--active" href="portfolio.html">Портфоліо</a></li>
             <li class="nav__item animate__animated animate__fadeInDown"><a class="nav__link" href="#">Контакти</a></li>
           </ul>
         </nav>
+
+        <button class="header__menu" data-menu-button>
+            <svg class="header__menu__icon" width="40px" height="40px">
+              <use href="./src/images/burger-menu.svg#icon-burger-menu"></use>
+            </svg>
+          </button>
+
         <ul class="contacts">
           <li class="contacts__item animate__animated animate__fadeInDown">
             <a class="contacts__link" href="mailto:info@devstudio.com"> <svg class="contacts__icon" width="16px" height="12px" >
@@ -213,15 +220,66 @@
     </section>
     </main>
     <footer class="footer">
-        <div data-aos="fade-up" class="container">
-        <a class="footer-logo" href="./index.html"><img src="./src/images/logo/second-logo.webp" alt="логотип"></a>
-        <ul class="footer-contacts">
-            <li class="footer-contacts-item"><address class="footer-address">м. Київ, пр-т Лесі Українки, 26</address></li>
-            <li class="footer-contacts-item"><a class="footer-contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="footer-contacts-item"><a class="footer-contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <div data-aos="fade-up" class="container footer__container">
+          <div class="container__contacts">
+            <a class="footer__logo" href="./index.html"><img src="./src/images/logo/second-logo.webp" alt="логотип"/></a>
+            <ul class="footer__contacts">
+             <li class="footer__contacts__item">
+              <address class="footer__address">м. Київ, пр-т Лесі Українки, 26</address>
+             </li>
+             <li class="footer__contacts__item">
+               <a class="footer__contacts__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+             </li>
+             <li class="footer__contacts__item">
+               <a class="footer__contacts__link" href="tel:+38096111111">+38 096 111 11 11</a>
+             </li>
           </ul>
+          </div>
+          <div class="footer__icons">
+            <b class="footer__title">ПРИЄДНУЙТЕСЬ</b>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a class="footer__link" href="#"><svg class="footer__icon">
+                  <use href="./src/images/symbol-defs.svg#icon-instagram"></use></svg>
+                  </a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link" href="#"><svg class="footer__icon">
+                  <use href="./src/images/symbol-defs.svg#icon-twitter"></use></svg>
+                  </a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link" href="#"><svg class="footer__icon">
+                  <use href="./src/images/symbol-defs.svg#icon-facebook"></use></svg>
+                  </a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link" href="#"><svg class="footer__icon">
+                  <use href="./src/images/symbol-defs.svg#icon-in"></use></svg>
+                  </a>
+                </li>
+             </ul>
+          </div>
+  
+          <div class="footer__form__container">
+            <h2 class="footer__form__title">Підпишіться на розсилку</h2>
+            <div class="form__container">
+            <form class="footer__form" action="#" id="email">
+              <label for="email" hidden></label>
+              <input class="footer__form__input" type="email" id="email" placeholder="E-mail">
+              <button class="footer__form__button">Підписатися
+                <svg class="footer__form__icon" width="24px" height="24px">
+                  <use href="./src/images/icon-send.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </form>
+            
+          </div>
         </div>
-        </footer>
+      </div>
+      
+      </footer>
+        <script src="./src/js/mobile-menu.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
             AOS.init();

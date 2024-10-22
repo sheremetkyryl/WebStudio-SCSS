@@ -26,14 +26,23 @@
     <a class="header__logo animate__animated animate__fadeInLeft" href="./index.html">
         <img src="./src/images/logo/webstudio.webp" alt="логотип"/>
     </a>
-      <nav class="nav">
+    
+      <nav class="nav open" data-menu>
         <ul class="nav__list">
             <li class="nav__item animate__animated animate__fadeInDown"><a class="nav__link nav__link--active" href="#">Студія</a></li>
             <li class="nav__item animate__animated animate__fadeInDown"><a class="nav__link" href="portfolio.html">Портфоліо</a></li>
             <li class="nav__item animate__animated animate__fadeInDown"><a class="nav__link" href="#">Контакти</a></li>
         </ul>
       </nav>
+
+      <button class="header__menu" data-menu-button>
+        <svg class="header__menu__icon" width="40px" height="40px">
+          <use href="./src/images/burger-menu.svg#icon-burger-menu"></use>
+        </svg>
+      </button>
+
       <ul class="contacts">
+
         <li class="contacts__item animate__animated animate__fadeInDown">
           <a class="contacts__link" href="mailto:info@devstudio.com"> <svg class="contacts__icon" width="16px" height="12px" >
             <use href="./src/images/symbol-defs.svg#icon-envelope"></use>
@@ -46,73 +55,74 @@
           </svg> +38 096 111 11 11</a>
         </li>
       </ul>
+
     </div>
     </header>
 
 
 <!-- ========================MODAL======================== -->
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button class="button__close" data-modal-close>
-          <svg class="button__close__icon">
-            <use href="./src/images/modalicons.svg#icon-close-icon"></use>
-          </svg>
-        </button>
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="button-close" data-modal-close>
+      <svg class="button-close-icon">
+        <use href="./src/images/modalicons.svg#icon-close-icon"></use>
+      </svg>
+    </button>
 
-        <form action="#" class="form">
-          <h2 class="form__title">Залиште свої дані, ми вам передзвонимо</h2>
+    <form action="#" class="modal-form">
+      <h2 class="modal-form-title">Залиште свої дані, ми вам передзвонимо</h2>
 
-          <div class="form-field">
-            <h3 class="form__name">Ім'я</h3>
-          <label hidden for="name"></label>
-          
-          <div class="input__container">
-            <input type="text" id="name" class="form__input">
-            <svg width="18px" height="18px" class="form__icon">
-              <use href="./src/images/modalicons.svg#icon-people-icon"></use>
-            </svg>
-          </div>
-
-        </div>
-
-        <div class="form__field">
-          <h3 class="form__name">Телефон</h3>
-            <label hidden for="tel"></label>
-            <input type="tel" id="tel" class="form-input">
-            <svg width="18px" height="18px" class="form-icon">
-              <use href="./src/images/modalicons.svg#icon-telefon-icon"></use>
-            </svg>
-          
-        </div>
-
-        <div class="form-field">
-          <h3 class="form__name">Пошта</h3>
-            <label hidden for="email"></label>
-            <input type="email" id="email" class="form__input">
-            <svg width="18px" height="18px" class="form__icon">
-              <use href="./src/images/modalicons.svg#icon-email-icon"></use>
-            </svg>
-          
-        </div>
-
-        <div class="form__field">
-          <h3 class="form__name">Коментар</h3>
-            <label hidden for="comment"></label>
-            <textarea name="comment" id="comment" placeholder="Введіть текст" class="form__textarea"></textarea>
-          
-        </div>
-
-        <div class="form__checkbox">
-          <label hidden for="checkbox"></label>
-            <input type="checkbox" class="form__checkbox">
-            <span class="checkbox__text">Погоджуюся з розсилкою та приймаю <a class="form__link" href="#">Умови договору</a></span>
-          
-        </div>
-
-        <button class="submit__button" type="submit">Відправити</button>
-        </form>
+      <div class="modal-form-field">
+        <h3 class="form-title">Ім'я</h3>
+      <label hidden for="name"></label>
+      
+      <div class="input-container">
+        <input type="text" id="name" class="modal-input">
+        <svg width="18px" height="18px" class="modal-icon">
+          <use href="./src/images/modalicons.svg#icon-people-icon"></use>
+        </svg>
       </div>
+
     </div>
+
+    <div class="modal-form-field">
+      <h3 class="form-title">Телефон</h3>
+        <label hidden for="tel"></label>
+        <input type="tel" id="tel" class="modal-input">
+        <svg width="18px" height="18px" class="modal-icon">
+          <use href="./src/images/modalicons.svg#icon-telefon-icon"></use>
+        </svg>
+      
+    </div>
+
+    <div class="modal-form-field">
+      <h3 class="form-title">Пошта</h3>
+        <label hidden for="email"></label>
+        <input type="email" id="email" class="modal-input">
+        <svg width="18px" height="18px" class="modal-icon">
+          <use href="./src/images/modalicons.svg#icon-email-icon"></use>
+        </svg>
+      
+    </div>
+
+    <div class="modal-form-field">
+      <h3 class="form-title">Коментар</h3>
+        <label hidden for="comment"></label>
+        <textarea name="comment" id="comment" placeholder="Введіть текст" class="modal-form-textarea"></textarea>
+      
+    </div>
+
+    <div class="modal-form-checkbox">
+      <label hidden for="checkbox"></label>
+        <input type="checkbox" class="modal-checkbox">
+        <span class="checkbox-text">Погоджуюся з розсилкою та приймаю <a class="modal-link" href="#">Умови договору</a></span>
+      
+    </div>
+
+    <button class="submit-button" type="submit">Відправити</button>
+    </form>
+  </div>
+</div>
 
     <!-- ========================HERO======================== -->
     <main class="main">
@@ -482,6 +492,7 @@
     </footer>
 
     <script src="./src/js/modal.js"></script>
+    <script src="./src/js/mobile-menu.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
