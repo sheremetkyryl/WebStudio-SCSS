@@ -1056,9 +1056,8 @@ body {
 }
 
 .portfolio-projects {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   -moz-column-gap: 30px;
        column-gap: 30px;
   text-decoration: none;
